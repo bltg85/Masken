@@ -1,4 +1,4 @@
-class MaskenGame {
+class SnakeGame {
     constructor() {
         this.canvas = document.getElementById('gameCanvas');
         this.ctx = this.canvas.getContext('2d');
@@ -236,7 +236,7 @@ class MaskenGame {
 
         this.snake.unshift(head);
 
-        // Kolla om masken äter äpplet
+        // Kolla om ormen äter äpplet
         if (head.x === this.apple.x && head.y === this.apple.y) {
             this.score += 10;
             this.generateApple();
@@ -280,7 +280,7 @@ class MaskenGame {
             this.ctx.stroke();
         }
 
-        // Rita masken
+        // Rita ormen
         this.snake.forEach((segment, index) => {
             if (index === 0) {
                 // Huvudet
@@ -361,6 +361,6 @@ class MaskenGame {
 // Starta spelet när sidan laddas
 let game;
 document.addEventListener('DOMContentLoaded', () => {
-    game = new MaskenGame();
+    game = new SnakeGame();
     game.draw();
 });

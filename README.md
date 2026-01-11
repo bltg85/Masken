@@ -1,20 +1,20 @@
-# 🐛 Masken - Ett Snake-liknande Spel
+# 🐍 Snake - Klassiskt Ormspel
 
-Ett interaktivt webbspel där du styr en mask som ska äta äpplen för att växa och få poäng!
+Ett interaktivt webbspel där du styr en orm som ska äta äpplen för att växa och få poäng!
 
 ## 🎮 Hur man spelar
 
-- **Styrning**: Använd piltangenterna (↑ ↓ ← →) för att styra masken
+- **Styrning**: Använd piltangenterna (↑ ↓ ← →) för att styra ormen
 - **Mål**: Ät äpplen (🍎) för att växa och få poäng
 - **Paus**: Tryck på SPACE för att pausa/fortsätta spelet
-- **Game Over**: Spelet slutar om masken krockar med väggarna eller sig själv
+- **Game Over**: Spelet slutar om ormen krockar med väggarna eller sig själv
 
 ## 🚀 Installation
 
 Ingen installation krävs! 
 
 ### Spela online:
-Spelet är tillgängligt på GitHub Pages: **https://bltg85.github.io/Masken/**
+Spelet är tillgängligt på GitHub Pages: **https://bltg85.github.io/Masken/** (länken behåller reponamnet)
 
 ### Spela lokalt:
 Öppna bara `index.html` i din webbläsare.
@@ -31,7 +31,7 @@ Spelet är tillgängligt på GitHub Pages: **https://bltg85.github.io/Masken/**
 - Responsiv design som fungerar på mobil och desktop
 - Mobilkontroller för touch-enheter
 - Paus-funktion
-- Visuell feedback med ögon på maskhuvudet
+- Visuell feedback med ögon på ormhuvudet
 
 ## 📝 Commita till GitHub
 
@@ -52,7 +52,7 @@ Om du vill commita detta till GitHub, följ dessa steg:
 
 4. **Commita**:
    ```bash
-   git commit -m "Initial commit: Masken spel"
+   git commit -m "Initial commit: Snake spel"
    ```
 
 5. **Skapa ett nytt repo på GitHub** och lägg till remote:
