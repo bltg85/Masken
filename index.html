@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masken - Ät Äpplen och Väx!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🐛 Masken</h1>
+            <p class="subtitle">Styr masken med piltangenterna och ät äpplen för att växa!</p>
+        </header>
+
+        <div class="game-info">
+            <div class="score-board">
+                <div class="score-item">
+                    <span class="label">Poäng:</span>
+                    <span id="score">0</span>
+                </div>
+                <div class="score-item">
+                    <span class="label">Längd:</span>
+                    <span id="length">1</span>
+                </div>
+                <div class="score-item">
+                    <span class="label">Bästa:</span>
+                    <span id="best-score">0</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="game-wrapper">
+            <canvas id="gameCanvas" width="600" height="600"></canvas>
+            <div class="game-overlay" id="gameOverlay">
+                <div class="overlay-content">
+                    <h2 id="overlayTitle">Masken</h2>
+                    <p id="overlayText">Tryck på SPACE eller klicka för att starta!</p>
+                    <p class="instructions">
+                        Använd <strong>PILTANGENTER</strong> för att styra masken<br>
+                        Ät <strong>🍎 ÄPPLEN</strong> för att växa och få poäng!
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="startBtn" class="btn btn-primary">Starta Spel</button>
+            <button id="pauseBtn" class="btn btn-secondary" style="display: none;">Pausa</button>
+        </div>
+
+        <div class="mobile-controls">
+            <div class="control-row">
+                <button class="control-btn" data-direction="up">↑</button>
+            </div>
+            <div class="control-row">
+                <button class="control-btn" data-direction="left">←</button>
+                <button class="control-btn" data-direction="down">↓</button>
+                <button class="control-btn" data-direction="right">→</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
