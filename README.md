@@ -11,7 +11,13 @@ Ett interaktivt webbspel där du styr en mask som ska äta äpplen för att väx
 
 ## 🚀 Installation
 
-Ingen installation krävs! Öppna bara `index.html` i din webbläsare.
+Ingen installation krävs! 
+
+### Spela online:
+Spelet är tillgängligt på GitHub Pages: **https://bltg85.github.io/Masken/**
+
+### Spela lokalt:
+Öppna bara `index.html` i din webbläsare.
 
 ## 📁 Filer
 
@@ -57,3 +63,16 @@ Om du vill commita detta till GitHub, följ dessa steg:
    ```
 
 Eller använd GitHub Desktop eller Cursor's inbyggda Git-funktioner om du föredrar det!
+
+## 🌐 GitHub Pages
+
+För att aktivera GitHub Pages och hosta spelet online:
+
+1. Gå till ditt repository på GitHub
+2. Klicka på **Settings** → **Pages**
+3. Under **Source**, välj **Deploy from a branch**
+4. Välj branch: **main** och folder: **/ (root)**
+5. Klicka **Save**
+
+Efter några minuter kommer spelet att vara tillgängligt på:
+**https://bltg85.github.io/Masken/**
